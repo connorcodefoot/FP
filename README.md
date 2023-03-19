@@ -32,6 +32,9 @@ Before installing, please make sure to have global installations of
 ## Installation
 1. Execute `npm install` to configure the local environment.
 2. Create `.env` file and define environmental variables (see `.env.example` for example)
+    A. psql and CREATE DATABASE final
+    B. \c final
+    C. CREATE ROLE final LOGIN 123456;  
 3. Perform DB initialization/migration and seeding `npm run seed`
 4. Start the development server `npm run dev`
 5. Build the production version `npm run build`
